@@ -19,6 +19,12 @@ Addition
     and user pushes equals
     Then result is "2"
 
+Soustraction
+    Given calculator has been cleared
+    When user types "3 - 1"
+    and user pushes equals
+    Then result is "2"
+
 *** Keywords ***
 Calculator has been cleared
     Push button    C
